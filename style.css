@@ -99,3 +99,13 @@ section {
     color: white;
 
 }
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    color: rgb(27, 78, 121);
+    transition: 0.2s; 
+}
