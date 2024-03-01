@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    }
+
+section {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    gap: 50px;
+
+}
+
+.primeironome {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal; 
+    font-size: 70px;
+    color: white;
+   
+
+}
+
+.segundonome {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 600; 
+    font-style: normal; 
+    color: beige;
+    
+}
+
+
+.botao {
+    background-color: rgb(13, 55, 90);
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s; background-color: rgb(13, 55, 90);
+}
+
+.botao:hover {
+    background-color: rgb(27, 78, 121);
+}
+
+#f1 {    
+    background-image: url(img5.jpeg);  
+
+}
+
+#f2 {
+    background-image: url(img7.avif);
+    
+}
+
+#f3 {
+    background-image: url(img6.jpg);
+    
+}
+
+.tituloum {
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    font-weight: 300; 
+    color: rgb(176, 218, 241);
+}
+
+.titulodois {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    font-weight: 300; 
+    color: rgb(11, 67, 97);
+}
+
+.texto {
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    font-weight: 300; 
+    color: rgb(176, 218, 241);
+}
+
+.sec3 {
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    color: white;
+
+}
